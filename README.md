@@ -195,6 +195,8 @@ If you encounter build errors:
 
 This project is private and proprietary.
 
+## Support
 
+For issues or questions, please contact the development team.
 
 
