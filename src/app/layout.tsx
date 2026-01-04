@@ -4,6 +4,7 @@ import "./globals.css";
 import { Providers } from "@/providers/provider";
 import { useEffect, useRef, useState } from "react";
 import LoadingIndicator from "@/components/Loading";
+import { Toaster } from "react-hot-toast";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +40,7 @@ export default function RootLayout({
         <Providers>
           {children}
         </Providers>
+        <Toaster position="top-right" />
       </body>
     </html>
   );
